@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    font-family: Arial, sans-serif;
+  }
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000; 
+  }
+  .nav-bar button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .nav-bar button:hover {
+    background-color: white;
+    color: black;
+  }
+  .scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    scroll-behavior: smooth;
+  }
+  .section {
+    flex: none;
+    width: 100vw;
+    margin-left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+  }
+  
+  //for nav
+  .navi{
+    button{
+        border: none;
+        color: grey;
+        background: transparent;
+    }
+    button:hover{
+        background: transparent;
+        color: white;
+    }
+  }
+
+//section-2
+#section-2-vid{
+    filter: blur(10px);
+    width: 100%;
+    
+}
